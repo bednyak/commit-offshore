@@ -1,0 +1,75 @@
+###############################################################################
+# IntelliJ IDEA / PyCharm project files
+###############################################################################
+.idea/                      # all IDE metadata (safe to ignore).
+*.iml                       # module descriptors
+out/                        # optional compiler output dir
+
+###############################################################################
+# Python — byte-code, virtual-envs, packaging artefacts
+###############################################################################
+# Byte-compiled / optimized / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C-extensions
+*.so
+*.pyd
+*.dylib
+*.dll
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+venv.bak/
+
+# Build / distribution
+build/
+dist/
+.eggs/
+*.egg-info/
+*.wheel
+
+###############################################################################
+# Tool caches & test artefacts
+###############################################################################
+.pytest_cache/
+.tox/
+.nox/
+coverage.xml
+htmlcov/
+.coverage*
+
+# Static type checker
+.mypy_cache/
+
+# Linting & formatting
+ruff_cache/
+.pyre/
+
+###############################################################################
+# Notebook & REPL junk
+###############################################################################
+.ipynb_checkpoints/
+*.spark-hist
+
+###############################################################################
+# Logs, dumps & profiling
+###############################################################################
+*.log
+*.out
+*.pid
+*.prof
+
+###############################################################################
+# OS / Editor miscellanea
+###############################################################################
+.DS_Store
+Thumbs.db
+._*
+.swp
+.idea_modules/
